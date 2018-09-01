@@ -1,6 +1,21 @@
-.dropdown-for-stalkers {
+#inside-jumbo-mirai {
+    font-size: 50px;
+    border: 2px solid black;
+}
+#inside-jumbo-mirai:hover {
+    background: white;
+    color: black;
+    border-radius: 50%;
 }
 
-#dropdown-for-stalkers:hover {
-    color: orange;
+.img_grid {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#insta_nav_bar {
+    width: 20px;
+    height: 20px;
+    padding-left: auto;
 }
