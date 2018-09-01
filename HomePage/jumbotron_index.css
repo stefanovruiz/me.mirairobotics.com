@@ -1,10 +1,9 @@
 .jumbotron1 {
     height: 400px;
-    background: white;
+    width: 100%;
+    background: url(motionpanorama.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: black;
-
 }
 
 .animated {
@@ -21,7 +20,7 @@
 
 .jumbotron1:hover .bg-overlay{
     height: 400px;
-    background: rgba(0,0,0, 0.4);
+    background: rgba(0,0,0, 0.6);
 
 }
 .jumbotron1 .container {
