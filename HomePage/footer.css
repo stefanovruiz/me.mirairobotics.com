@@ -1,0 +1,22 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000000;
+    color: orange;
+    text-decoration: none;
+}
+
+#insta-foot {
+    color: white;
+    text-decoration: none;
+}
+
+#insta-foot-image {
+    filter: invert(100%);
+}
+
+.container-grid {
+    padding-bottom: 100px;
+}

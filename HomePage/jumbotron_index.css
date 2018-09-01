@@ -1,0 +1,42 @@
+.jumbotron1 {
+    height: 400px;
+    background: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.animated {
+    -webkit-transition: all 600ms ease-in;
+    -o-transition: all 600ms ease-in;
+    transition: all 600ms ease-in;
+}
+
+.jumbotron1 .bg-overlay {
+    height: 400px;
+    background: rgba(0,0,0,0);
+
+}
+
+.jumbotron1:hover .bg-overlay{
+    height: 400px;
+    background: rgba(0,0,0, 0.4);
+
+}
+.jumbotron1 .container {
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+.jumbotron1 h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 48px;
+    font-family:'Shift', sans-serif;
+}
+.jumbotron1 p {
+    color: #fff;
+    font-size: 20px;
+}
+
+

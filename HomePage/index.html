@@ -7,7 +7,10 @@
     <title>About Me</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="index.css">
-
+    <link rel="stylesheet" href="jumbotron_index.css">
+    <link rel="stylesheet" href="img_grid_mirai_about_me.css">
+    <link rel="stylesheet" href="snowboarding_grid_about_me.css">
+    <link rel="stylesheet" href="footer.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -42,7 +45,7 @@
                         For Stalkers
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" id="dropdown-for-stalkers" href="https://www.instagram.com/binaryrailgun/">Instagram - <img id="insta_nav_bar" src="glyph-icons2%20copy.png"></a>
+                        <a class="dropdown-item" id="dropdown-for-stalkers" href="https://www.instagram.com/binaryrailgun/">Instagram - <img class="insta_nav_bar" src="glyph-icons2%20copy.png"></a>
                         <a class="dropdown-item" href="https://500px.com/stefanovruiz">500px - Professional</a>
                     </div>
                 </li>
@@ -50,44 +53,55 @@
         </div>
     </nav>
 
-    <div class="container">
-        <div class="jumbotron" id="inside-jumbo-mirai">
-            Hi I'm Stefano Ruiz!~
+    <div class="jumbotron1">
+        <div class="bg-overlay animated">
+            <div class="container">
+                <h1> Stefano Ruiz </h1>
+                <p>Welcome to Mirai Robotics, About Me Page!</p>
+            </div>
         </div>
     </div>
 
     <!-- Everything below up to the next comment relates to modifying the bootstrap grid system. -->
-    <div class="container">
+    <div class="container-grid">
+        <div class="container">
         <div class="row">
             <div class="col-md-4 border-bottom">
-                <div class="thumbnail">
-                    <img src="snowboard_me_fail.jpg" class="rounded img_grid" style="width:100%">
-                    <div class="caption">
-                        <p>Hi my name is Stefano Ruiz. I'm a 21 year old Student from Salt Lake City, Utah. I have been told I have a zest for life.</p>
-                        <br>
+                <div class="img_grid">
+                    <div class="about-me-overlay animated1">
+                        <div class="container-about-me">
+                            <p class="p-grid">
+                                Hi my name is Stefano Ruiz. I'm a 21 year old Student from Salt Lake City, Utah.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="thumbnail">
-                    <img src="Lone_Peak_OAC.jpg" class="rounded img_grid" style="width:100%">
-                    <div class="caption border-bottom">
-                        <p>My favorite hobbies include mountain biking, hiking, and snowboarding through the glorious state of Utah.</p>
-                        <br>
+                <div class="img_grid_lone">
+                    <div class="about-me-overlay_lone animated2">
+                        <div class="container-about-me_lone">
+                            <p class="p-grid_lone">My favorite hobbies include mountain biking, bowling, and snowboarding through the glorious state of Utah.</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 border-bottom">
-                <div class="thumbnail">
-                    <img src="b024a6ea591baa2fbf85604616f1b546.jpg" class="rounded img_grid" style="width:100%">
-                    <div class="caption">
-                        <p>Favorite Movie is <em>Your Name</em>. Directed by Makoto Shinkai.</p>
-                        <br>
+                <div class="img_grid_your_name">
+                    <div class="about-me-overlay_name animated3">
+                        <div class="container-about-me_name">
+                            <p class="p-grid_name">My favorite hobbies include mountain biking, bowling, and snowboarding through the glorious state of Utah.</p>
+                        </div>
                     </div>
                 </div>
             </div>
 
         </div>
+    </div>
+    </div>
+
+    <div class="footer">
+        <a href="https://www.instagram.com/binaryrailgun/" id="insta-foot">Instagram - <img class="insta_nav_bar" id="insta-foot-image" src="glyph-icons2%20copy.png"></a>
     </div>
 
 

@@ -1,47 +1,40 @@
-
 /* Control image grid. */
-.img_grid {
+.img_grid_lone {
     height: 400px;
     width: 100%;
-    background-image: url(snowboard_me_fail.jpg);
+    background-image: url(Lone_Peak_OAC.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.animated1 {
+.animated2 {
     -webkit-transition: all 600ms ease;
     -o-transition: all 600ms ease;
     transition: all 600ms ease;
 }
 
-.img_grid .about-me-overlay {
+.img_grid_lone .about-me-overlay_lone {
     height: 400px;
     background: rgba(0,0,0,0);
 }
 
-.img_grid:hover .about-me-overlay{
+.img_grid_lone:hover .about-me-overlay_lone {
     height: 400px;
     background: rgba(0,0,0,0.4);
 }
 
-.img_grid:hover .p-grid {
+.img_grid_lone:hover .p-grid_lone {
     color: white;
 }
 
-.img_grid .container-about-me {
+.img_grid_lone .container-about-me_lone {
     position: relative;
     /*top: 200px;*/
     text-align: center;
     padding-top: 40%;
 }
 
-.img_grid .p-grid {
+.img_grid_lone .p-grid_lone {
     color: transparent;
     font-size: 20px;
-}
-
-.insta_nav_bar {
-    width: 20px;
-    height: 20px;
-    padding-left: auto;
 }
