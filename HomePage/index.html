@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Me</title>
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="index.css">
 
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="http://www.mirairobotics.com">Mirai Robotics</a>
+        <a class="navbar-brand" href="#">Mirai Robotics</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -20,24 +21,28 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
+                    <a class="nav-link" href="http://me.mirairobotics.com">About Me</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown link
+                        Class Stuff
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="#">Class Exercises</a>
+                        <a class="dropdown-item" href="#">Assignment 1</a>
+                        <a class="dropdown-item" href="#">Assignment 2</a>
+                        <a class="dropdown-item" href="#">Assignment 3</a>
+                        <a class="dropdown-item" href="#">E-Commerce</a>
                     </div>
                 </li>
+
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         For Stalkers
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" id="dropdown-for-stalkers" href="#">Instagram</a>
+                        <a class="dropdown-item" id="dropdown-for-stalkers" href="https://www.instagram.com/binaryrailgun/">Instagram - <img id="insta_nav_bar" src="glyph-icons2%20copy.png"></a>
                         <a class="dropdown-item" href="#">500px</a>
                     </div>
                 </li>
@@ -46,15 +51,44 @@
     </nav>
 
     <div class="container">
-        <div class="jumbotron">My image Gallery</div>
+        <div class="jumbotron" id="inside-jumbo-mirai">
+            Hi I'm Stefano Ruiz!~
+        </div>
     </div>
 
+    <!-- Everything below up to the next comment relates to modifying the bootstrap grid system. -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 border-bottom">
+                <div class="thumbnail">
+                    <img src="snowboard_me_fail.jpg" class="rounded img_grid" style="width:100%">
+                    <div class="caption">
+                        <p>Hi my name is Stefano Ruiz. I'm a 21 year old Student from Salt Lake City, Utah. I have been told I have a zest for life.</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="Lone_Peak_OAC.jpg" class="rounded img_grid" style="width:100%">
+                    <div class="caption border-bottom">
+                        <p>My favorite hobbies include mountain biking, hiking, and snowboarding through the glorious state of Utah.</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 border-bottom">
+                <div class="thumbnail">
+                    <img src="b024a6ea591baa2fbf85604616f1b546.jpg" class="rounded img_grid" style="width:100%">
+                    <div class="caption">
+                        <p>Favorite Movie is <em>Your Name</em>. Directed by Makoto Shinkai.</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
 
-
-
-
-
-
+        </div>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
