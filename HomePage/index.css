@@ -1,24 +1,6 @@
-h1 {
-    font-family: "Comic Sans MS";
-    color: orange;
-    text-align: center;
-
+.dropdown-for-stalkers {
 }
 
-.logo {
+#dropdown-for-stalkers:hover {
     color: orange;
-    font-family: "Comic Sans MS";
-}
-
-
-/*
-    Mirai Jumbo CSS
-*/
-#mirai-jumbo:hover{
-    color: orange;
-
-}
-
-#mirai-jumbo-2 {
-    background: lightgrey;
 }
